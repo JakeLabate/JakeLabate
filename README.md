@@ -176,7 +176,7 @@ Fire your content agency. Equip the power of AI content generation.
    }
 }
 ```
-
+Load assets from your brand to your website:
 ```html
 <script type="module" src="https://app.brandwield.com/assets?brandID={{YOUR-BRAND-ID}}"></script>
 ```
