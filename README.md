@@ -177,6 +177,10 @@ Fire your content agency. Equip the power of AI content generation.
 }
 ```
 
+```html
+<script type="module" src="https://app.brandwield.com/assets?brandID={{YOUR-BRAND-ID}}"></script>
+```
+
 ## ✨ Mission
 Our mission is to make content vision synonymous with content production.
 
