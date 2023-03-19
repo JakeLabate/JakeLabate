@@ -20,7 +20,7 @@ We generate marketing deliverables from your brand's elements.
 
 #### Website Content
 - Meta Data
-- Sschema Markup](https://schema.org)
+- [Schema Markup](https://schema.org)
 - Full Blown Websites (soon)
 
 ### From:
