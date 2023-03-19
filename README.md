@@ -20,7 +20,7 @@ We generate marketing deliverables from your brand's elements.
 
 #### Website Content
 - Meta Data
-- Schema.org Markup
+- [https://schema.org](Schema.org) Markup
 - Full Blown Websites (soon)
 
 ### From:
@@ -119,9 +119,9 @@ Fire your content agency. Equip the power of AI content generation.
 ```
 
 ### Schema Markup
-Schema markup (aka: Structurd data) is code embedded in a webpage, either at the location of the item it annotates or elsewhere, that provides detailed information about different elements on a webpage.<br>
+[https://schema.org](Schema markup) (aka: Structurd data) is code embedded in a webpage, either at the location of the item it annotates or elsewhere, that provides detailed information about different elements on a webpage.<br>
 <br>
-Some common schema types includes `Review`, `Movie`, `Book`, `Recipie` etc.<br>
+Some common schema types includes `Review`, `Movie`, `Book`, `Recipie`, `Organization` etc.<br>
 <br>
 The purpose of embedding webpages with this encoded data, is to allow search engines the confidence to produce 'Rich Results' in the SERP (search engine results page).<br>
 <br>
@@ -174,7 +174,7 @@ BrandWield pulls, constructs and deploys pre-constructed schema templates from b
    }
 }
 ```
-Load dynamically constructed [https://scheam.org](schema.org) codes and other SEO assets from your brand variables to your website with our `script` tag:
+Load dynamically constructed [https://schema.org](schema.org) codes and other SEO assets from your brand variables to your website with our `script` tag:
 ```html
 <script type="module" src="https://app.brandwield.com/assets?brandID={{YOUR-BRAND-ID}}"></script>
 ```
