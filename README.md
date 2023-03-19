@@ -174,7 +174,7 @@ BrandWield pulls, constructs and deploys pre-constructed schema templates from b
    }
 }
 ```
-Load dynamically constructed schema codes and other SEO assets from your brand variables to your website with our script tag:
+Load dynamically constructed [https://scheam.org](schema.org) codes and other SEO assets from your brand variables to your website with our `script` tag:
 ```html
 <script type="module" src="https://app.brandwield.com/assets?brandID={{YOUR-BRAND-ID}}"></script>
 ```
