@@ -20,7 +20,7 @@ We generate marketing deliverables from your brand's elements.
 
 #### Website Content
 - Meta Data
-- [https://schema.org](Schema.org) Markup
+- [schema.org](https://schema.org) Markup
 - Full Blown Websites (soon)
 
 ### From:
@@ -119,7 +119,7 @@ Fire your content agency. Equip the power of AI content generation.
 ```
 
 ### Schema Markup
-[https://schema.org](Schema markup) (aka: Structurd data) is code embedded in a webpage, either at the location of the item it annotates or elsewhere, that provides detailed information about different elements on a webpage.<br>
+[Schema Markup](https://schema.org) (aka: Structurd data) is code embedded in a webpage, either at the location of the item it annotates or elsewhere, that provides detailed information about different elements on a webpage.<br>
 <br>
 Some common schema types includes `Review`, `Movie`, `Book`, `Recipie`, `Organization` etc.<br>
 <br>
