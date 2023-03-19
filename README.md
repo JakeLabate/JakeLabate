@@ -125,7 +125,9 @@ Some common schema types includes 'Review', 'Movie', 'Book', 'Recipie' etc.<br>
 <br>
 The purpose of embedding webpages with this encoded data, is to allow search engines the confidence to produce 'Rich Results' in the SERP (search engine results page).<br>
 <br>
-This includes dynamic and annotated search results for the ranked webpages, greatly increasing search CTR (click thru rate).
+This includes dynamic and annotated search results for the ranked webpages, greatly increasing search CTR (click thru rate).<br>
+<br>
+BrandWield pulls, constructs and deploys pre-constructed schema templates from brand variables. See and example schema below, and an available script that allows for continual and update schema encoding.
 ```js
 {
    '@type': 'Organization',
