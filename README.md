@@ -121,7 +121,7 @@ Fire your content agency. Equip the power of AI content generation.
 ### Schema Markup
 Schema markup (aka: Structurd data) is code embedded in a webpage, either at the location of the item it annotates or elsewhere, that provides detailed information about different elements on a webpage.<br>
 <br>
-Some common schema types includes 'Review', 'Movie', 'Book', 'Recipie' etc.<br>
+Some common schema types includes `'Review'`, '<Movie>', 'Book', 'Recipie' etc.<br>
 <br>
 The purpose of embedding webpages with this encoded data, is to allow search engines the confidence to produce 'Rich Results' in the SERP (search engine results page).<br>
 <br>
