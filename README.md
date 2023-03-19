@@ -137,6 +137,7 @@ BrandWield pulls, constructs and deploys pre-constructed schema templates from b
    'description': brand.name + ' | ' + brand.slogan + ' | ' + brand.mission,
    'telephone': brand.phone,
    'email': brand.email,
+   'lastUpdated': new Date();
    'sameAs': [
       brand.facebookUrl,
       brand.instagramUrl,
