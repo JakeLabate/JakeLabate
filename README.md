@@ -101,14 +101,10 @@ Fire your content agency. Equip the power of AI content generation.
 
 ### Meta Data
 ```js
-// Misc. Head Tags
+// <head> data
 '<title>' + brand.name + ' | ' + brand.slogan + '</title>'
 '<meta name="description" content="' + brand.name + ' | ' + brand.slogan + ' | ' + brand.mission + '">'
-'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=' + brand.primaryFont + ',' + brand.secondaryFont + ',' + brand.tertiaryFont + ':wght@400&display=swap' + '">'
-'<link rel="canonical" href="' + brand.website + '">'
 '<meta name="theme-color" content="' + brand.primaryColor + '">'
-
-// Open Graph Meta Tags
 '<meta property="og:title" content="' + brand.name + ' | ' + brand.slogan + '">'
 '<meta property="og:description" content="' + brand.slogan + ' | ' + brand.mission + '">'
 '<meta property="og:url" content="' + brand.website + '">'
@@ -116,18 +112,10 @@ Fire your content agency. Equip the power of AI content generation.
 '<meta property="og:image:alt" content="' + brand.tradeBusinessName + ' Logo">'
 '<meta property="og:image:width" content="' + brand.ogImage.width + '">'
 '<meta property="og:image:height" content="' + brand.ogImage.height + '">'
-'<meta property="og:type" content="website">'
-'<meta property="og:locale" content="en-US">'
 '<meta property="og:site_name" content="' + brand.name + ' | ' + brand.mission + '">'
-
-// Twitter Meta Tags
-'<meta name="twitter:card" content="summary_large_image">'
 '<meta name="twitter:site" content="' + '@' + brand.twitter + '">'
-'<meta name="twitter:creator" content="' + '@' + brand.twitter + '">'
-'<meta name="twitter:title" content="' + brand.tradeBusinessName + ' | ' + brand.slogan + '">'
-'<meta name="twitter:description" content="' + brand.slogan + ' | ' + brand.mission + '">'
-'<meta name="twitter:image" content="' + brand.logo + '">'
-'<meta name="twitter:image:alt" content="' + brand.name + ' Logo">'
+'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=' + brand.primaryFont + ',' + brand.secondaryFont + ',' + brand.tertiaryFont + ':wght@400&display=swap' + '">'
+'<link rel="canonical" href="' + brand.website + '">'
 ```
 
 ### Schema Markup
