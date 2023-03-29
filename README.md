@@ -184,7 +184,7 @@ Load dynamically constructed [schema markup](https://schema.org) codes and other
 ```
 
 ### Brand-Variable AI Prompts
-<img width="90%" src="https://uploads-ssl.webflow.com/634c719a74f298b73d006436/64237da908bd3fa8fc1c4bb4_Screen%20Shot%202023-03-28%20at%207.41.00%20PM-p-800.png">
+<img width="100%" src="https://uploads-ssl.webflow.com/634c719a74f298b73d006436/64237da908bd3fa8fc1c4bb4_Screen%20Shot%202023-03-28%20at%207.41.00%20PM-p-800.png">
 
 ## ✨ Mission
 Our mission is to make content vision synonymous with content production.
