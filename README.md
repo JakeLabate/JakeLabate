@@ -184,6 +184,7 @@ Load dynamically constructed [schema markup](https://schema.org) codes and other
 ```
 
 ### Brand-Variable AI Prompts
+Based on the info about your brand, specific products and more, our generative prompts keep your AI-usage leagues above your competitors.
 <img width="100%" src="https://uploads-ssl.webflow.com/634c719a74f298b73d006436/64237da908bd3fa8fc1c4bb4_Screen%20Shot%202023-03-28%20at%207.41.00%20PM-p-800.png">
 
 ## ✨ Mission
