@@ -188,6 +188,33 @@ Based on the info about your brand, specific products and more, our generative p
 
 <img width="100%" src="https://uploads-ssl.webflow.com/634c719a74f298b73d006436/64237da908bd3fa8fc1c4bb4_Screen%20Shot%202023-03-28%20at%207.41.00%20PM-p-800.png">
 
+
+```js
+		let prompt = '';
+
+		if (actAsIfYouAreA) { prompt += `Act as if you are a ${actAsIfYouAreA}. ` }
+		if (action) { prompt += `${action} a ` }
+		if (adjective) { prompt += `${adjective} ` }
+		if (lengthOfResponse) { prompt += `${lengthOfResponse} ` }
+		if (itemToGenerate) { prompt += `${itemToGenerate} ` }
+		if (conveyTheConclusionOf) { prompt += `that conveys ${conveyTheConclusionOf}. ` }
+		if (beSureToInclude) { prompt += `Be sure to include ${beSureToInclude}. ` }
+		if (beSureToNotInclude) { prompt += `Be sure to NOT include ${beSureToNotInclude}. ` }
+		if (theObjectiveIsTo) { prompt += `The objective for this ${itemToGenerate} is to ${theObjectiveIsTo}. ` }
+		if (considerOccasion) { prompt += `Be sure to consider the occasion: ${considerOccasion}. ` }
+		if (triggerTheEmotionOf) { prompt += `Trigger the emotion of ${triggerTheEmotionOf} in the reader. ` }
+
+		let targetMarket = 'The target market audience for this '
+		if (targetMarketAge) { targetMarket += `is about ${targetMarketAge} years old, ` }
+		if (targetMarketGender) { targetMarket += `is ${targetMarketGender}, ` }
+		if (targetMarketPoliticalViews) { targetMarket += `is ${targetMarketPoliticalViews} in their beliefs,` }
+		if (targetMarketIncome) { targetMarket += `and earns about ${targetMarketIncome} per year. ` }
+		if (targetMarketAge || targetMarketGender || targetMarketPoliticalViews || targetMarketIncome) {
+			prompt += targetMarket;
+		}
+
+		return prompt;
+```
 ## ✨ Mission
 Our mission is to make content vision synonymous with content production.
 
