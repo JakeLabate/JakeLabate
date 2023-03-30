@@ -133,7 +133,7 @@ This includes dynamic and annotated search results for the ranked webpages, grea
 <br>
 BrandWield pulls, constructs and deploys pre-constructed schema templates from brand variables. See and example schema below, and an available script that allows for continual and update schema encoding.
 ```js
-{
+removeEmptyKeys({
    '@type': 'Organization',
    '@id': brand.website + '/#organization',
    'url': brand.website,
@@ -176,7 +176,7 @@ BrandWield pulls, constructs and deploys pre-constructed schema templates from b
          'price': brand.offers[1].price
       }]
    }
-}
+});
 ```
 Load dynamically constructed [schema markup](https://schema.org) codes and other SEO assets from your brand variables to your website with our `script` tag:
 ```html
