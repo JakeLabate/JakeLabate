@@ -158,7 +158,7 @@ cleanJSON({
    'address': {
       '@type': 'PostalAddress',
       '@id': brand.website + '/#postalAddress',
-      'streetAddress': brand.street1 + brand.street2,
+      'streetAddress': brand.street1 + ' ' + brand.street2,
       'addressLocality': brand.city,
       'addressRegion': brand.state,
       'postalCode': brand.zip,
