@@ -133,12 +133,12 @@ This includes dynamic and annotated search results for the ranked webpages, grea
 <br>
 BrandWield pulls, constructs and deploys pre-constructed schema templates from brand variables. See and example schema below, and an available script that allows for continual and update schema encoding.
 ```js
-function auditJSON(json) {
+function cleanJSON(json) {
    removeEmptyKeys(json);
    removeInsufficientTypes(json);
 }
 
-auditJSON({
+cleanJSON({
    '@context': 'https://schema.org',
    '@type': brand.type,
    '@id': brand.website + '/#' + brand.type.toLowerCase();
