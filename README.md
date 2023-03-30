@@ -133,13 +133,14 @@ This includes dynamic and annotated search results for the ranked webpages, grea
 <br>
 BrandWield pulls, constructs and deploys pre-constructed schema templates from brand variables. See and example schema below, and an available script that allows for continual and update schema encoding.
 ```js
-function auditJSON({json}) {
-   removeEmptyKeys({json});
-   removeTypesWithRequirementsNotMet({json});
+function auditJSON(json) {
+   removeEmptyKeys(json);
+   removeInsufficientTypes(json);
 }
 
 auditJSON({
-   '@type': brand.type
+   '@context': 'https://schema.org',
+   '@type': brand.type,
    '@id': brand.website + '/#' + brand.type.toLowerCase();
    'url': brand.website,
    'name': brand.name,
@@ -157,7 +158,7 @@ auditJSON({
    'address': {
       '@type': 'PostalAddress',
       '@id': brand.website + '/#postalAddress',
-      'streetAddress': brand.street
+      'streetAddress': brand.street1 + brand.street2,
       'addressLocality': brand.city,
       'addressRegion': brand.state,
       'postalCode': brand.zip,
@@ -183,7 +184,7 @@ auditJSON({
    }
 });
 ```
-Load dynamically constructed [schema markup](https://schema.org) codes and other SEO assets from your brand variables to your website with our `script` tag:
+Load the dynamically constructed [schema markup](https://schema.org) codes and other SEO assets from your brand variables to your website with our `script` tag:
 ```html
 <script type="module" src="https://app.brandwield.com/assets?brandID={{YOUR-BRAND-ID}}"></script>
 ```
