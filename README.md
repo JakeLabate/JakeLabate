@@ -133,9 +133,14 @@ This includes dynamic and annotated search results for the ranked webpages, grea
 <br>
 BrandWield pulls, constructs and deploys pre-constructed schema templates from brand variables. See and example schema below, and an available script that allows for continual and update schema encoding.
 ```js
-removeEmptyKeys({
-   '@type': 'Organization',
-   '@id': brand.website + '/#organization',
+function auditJSON({json}) {
+   removeEmptyKeys({json});
+   removeTypesWithRequirementsNotMet({json});
+}
+
+auditJSON({
+   '@type': brand.type
+   '@id': brand.website + '/#' + brand.type.toLowerCase();
    'url': brand.website,
    'name': brand.name,
    'description': brand.name + ' | ' + brand.slogan + ' | ' + brand.mission,
@@ -150,8 +155,8 @@ removeEmptyKeys({
       brand.tiktokUrl
    ],
    'address': {
-      '@type': 'postalAddress',
-      '@id': brand.website + '/#postaladdress',
+      '@type': 'PostalAddress',
+      '@id': brand.website + '/#postalAddress',
       'streetAddress': brand.street
       'addressLocality': brand.city,
       'addressRegion': brand.state,
@@ -160,7 +165,7 @@ removeEmptyKeys({
    },
    'hasOfferCatalog': {
       '@type': 'OfferCatalog',
-      '@id': brand.website + '/#OfferCatalog',
+      '@id': brand.website + '/#offerCatalog',
       'name': brand.name + ', ' + brand.type + ' Offerings',
       'url': brand.website + '/offers',
       'itemListElement': [{
