@@ -44,6 +44,9 @@ We generate marketing deliverables from your brand's elements.
 ### 🫀 Brand Management
 Single source of truth for your brand, update and track company contact, branding, social media, products/services, team members/testimonials all in 1 place.<br>
 
+We are continually developing an evolving schema of brand variables, how are linked and how they are structured:
+https://whimsical.com/brand-variables-EnU8nWB6pHHAt6QiWx9eiA
+
 <p float="left">
 <img width="33%" src="https://user-images.githubusercontent.com/89541068/219959210-ac698211-b5df-4bf9-bf4d-ccb98b0526f2.png">
 <img width="33%" src="https://user-images.githubusercontent.com/89541068/219959205-a6e7ed51-051b-417a-8ef3-59b6e3ca8e5a.png">
