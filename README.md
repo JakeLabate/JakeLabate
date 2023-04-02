@@ -1,7 +1,7 @@
 <a href="https://www.brandwield.com"><img alt="BrandWield Logo" src="https://user-images.githubusercontent.com/89541068/218336537-f9a512e7-cf1d-4051-8b14-dfc61a00a326.png" width="300px"/>
 </a>
 # BrandWield
-Equip your brand.<br>
+Scale content on a whim.<br>
 https://www.brandwield.com<br>
 <br>
 BrandWield is a marketing software for contractors and freelancers.
@@ -24,8 +24,8 @@ We generate marketing deliverables from your brand's elements.
 - [Schema Markup](https://schema.org)
 - Full Blown Websites (soon)
 
-#### Brand-Specific AI Prompts
-- Pull Target Markup Info and Much More.
+#### Brand-Specific AI Prompt Engineering
+- Pull target market demographics, product details and much more into templated prompts in order generate ideal responses .
 
 ### From:
 #### Brand Imagery
