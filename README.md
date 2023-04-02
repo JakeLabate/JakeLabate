@@ -222,7 +222,6 @@ Our mission is to make the content vision of small and med size business owners 
 
 ## 👬 Team
 We are offering vested equity to 1-3 talented full-time designer and developer co-founders to help bring BrandWield's mission to fruition.
-```js
 
 ## 🚀 Progress
 This venture started November, 2022. We used similar self-developed technology internally for about a year prior, using it to offer content to our marketing clients.
