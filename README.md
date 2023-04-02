@@ -202,9 +202,6 @@ if (action) { prompt += `${action} a ` }
 if (adjective) { prompt += `${adjective} ` }
 if (lengthOfResponse) { prompt += `${lengthOfResponse} ` }
 if (itemToGenerate) { prompt += `${itemToGenerate} ` }
-if (conveyTheConclusionOf) { prompt += `that conveys ${conveyTheConclusionOf}. ` }
-if (beSureToInclude) { prompt += `Be sure to include ${beSureToInclude}. ` }
-if (beSureToNotInclude) { prompt += `Be sure to NOT include ${beSureToNotInclude}. ` }
 if (theObjectiveIsTo) { prompt += `The objective for this ${itemToGenerate} is to ${theObjectiveIsTo}. ` }
 if (considerOccasion) { prompt += `Be sure to consider the occasion: ${considerOccasion}. ` }
 if (triggerTheEmotionOf) { prompt += `Trigger the emotion of ${triggerTheEmotionOf} in the reader. ` }
@@ -221,47 +218,11 @@ if (targetMarketAge || targetMarketGender || targetMarketPoliticalViews || targe
 return prompt;
 ```
 ## ✨ Mission
-Our mission is to make content vision synonymous with content production.
-
-```js
-const bw = {
-   eval.2035: '$10B';
-   mission: {
-      content.vision ===
-      content.production
-   }
-};
-
-if (
-	bw.mission == false;
-) {
-	cry(me);
-	build(mission);
-} else {
-	cry(me);
-	revise(mission);
-}
-
-```
+Our mission is to make the content vision of small and med size business owners synonymous with the content they can produce.
 
 ## 👬 Team
-We are offering vested equity to 1-3 talented full-time designer/developer co-founders to help bring BrandWield's mission to fruition.
+We are offering vested equity to 1-3 talented full-time designer and developer co-founders to help bring BrandWield's mission to fruition.
 ```js
-
-if (
-   you.mission == bw.mission &&
-   you.iq > 125 &&
-   you.work == 'unlimited'
-) {
-   let you.equity = '25%-50%';
-   let you.future = 'bright'
-   let you.wealth =
-      Number(you.equity) *
-      Number(bw.eval.2035);
-} else { 
-   bye(you);
-}
-```
 
 ## 🚀 Progress
 This venture started November, 2022. We used similar self-developed technology internally for about a year prior, using it to offer content to our marketing clients.
