@@ -4,8 +4,8 @@
 Scale content on a whim.<br>
 https://www.brandwield.com<br>
 <br>
-BrandWield is a marketing software for contractors and freelancers.
-We generate marketing deliverables from your brand's elements.
+BrandWield is a content generation software for marketing agencies.
+We produce marketing deliverables from your client branding elements.
 
 ### Generate:
 
