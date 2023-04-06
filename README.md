@@ -110,19 +110,18 @@ Fire your content agency. Equip the power of AI content generation.
 ```js
 // <head> data
 '<title>' + brand.name + ' | ' + brand.slogan + '</title>'
-'<meta name="description" content="' + brand.name + ' | ' + brand.slogan + ' | ' + brand.mission + '">'
-'<meta name="theme-color" content="' + brand.primaryColor + '">'
-'<meta property="og:title" content="' + brand.name + ' | ' + brand.slogan + '">'
-'<meta property="og:description" content="' + brand.slogan + ' | ' + brand.mission + '">'
-'<meta property="og:url" content="' + brand.website + '">'
-'<meta property="og:image" content="' + brand.ogImage + '">'
-'<meta property="og:image:alt" content="' + brand.tradeBusinessName + ' Logo">'
-'<meta property="og:image:width" content="' + brand.ogImage.width + '">'
-'<meta property="og:image:height" content="' + brand.ogImage.height + '">'
-'<meta property="og:site_name" content="' + brand.name + ' | ' + brand.mission + '">'
-'<meta name="twitter:site" content="' + '@' + brand.twitter + '">'
-'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=' + brand.primaryFont + ',' + brand.secondaryFont + ',' + brand.tertiaryFont + ':wght@400&display=swap' + '">'
-'<link rel="canonical" href="' + brand.website + '">'
+'...decription" content="' + brand.name + ' | ' + brand.slogan + ' | ' + brand.mission + '">'
+'...theme-color" content="' + brand.primaryColor + '">'
+'...of:title" content="' + brand.name + ' | ' + brand.slogan + '">'
+'...og:url" content="' + brand.website + '">'
+'...og:image" content="' + brand.ogImage + '">'
+'...og:image:alt" content="' + brand.tradeBusinessName + ' Logo">'
+'...og:image:width" content="' + brand.ogImage.width + '">'
+'...og:image:height" content="' + brand.ogImage.height + '">'
+'...og:site_name" content="' + brand.name + ' | ' + brand.mission + '">'
+'...twitter:site" content="' + '@' + brand.twitter + '">'
+'...stylesheet" href="https://fonts.googleapis.com/css2?family=' + brand.primaryFont + ',' + brand.secondaryFont + ',' + brand.tertiaryFont + ':wght@400&display=swap' + '">'
+'...canonical" href="' + brand.website + '">'
 ```
 
 ### Schema Markup
