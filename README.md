@@ -56,6 +56,13 @@ https://whimsical.com/brand-variables-EnU8nWB6pHHAt6QiWx9eiA
 ### 👨🏼‍🏫 Built in Marketing Frameworks
 Step-by-step guidelines to generate hot-topic, rich and high-engaging marketing content
 
+#### Semantic HTML
+- The perfect element tag
+- The perfect element attributes
+
+#### Microdata
+- The perfect microdata
+
 ### ⚙️ Automated Content Generation
 Social media images, email signatures, copywriting templates and more are generated (and updated) from your brand's details.
 
