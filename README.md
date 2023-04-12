@@ -145,6 +145,7 @@ BrandWield pulls, constructs and deploys pre-constructed schema templates from b
 function cleanJSON(json) {
    removeEmptyKeys(json);
    removeInsufficientTypes(json);
+   removeSubsequentContextReferences(json)
    return json
 }
 
