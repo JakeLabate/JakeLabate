@@ -117,7 +117,7 @@ Fire your content agency. Equip the power of AI content generation.
 ```js
 
 '<title>' + brand.name + ' | ' + brand.slogan + '</title>'
-'<meta name="decription" content="' + brand.name + ' | ' + brand.slogan + ' | ' + brand.mission + '">'
+'<meta name="decription" content="' + brand.description + '">'
 '<meta name="theme-color" content="' + brand.primaryColor + '">'
 '<meta property="og:title" content="' + brand.name + ' | ' + brand.slogan + '">'
 '<meta property="og:url" content="' + brand.website + '">'
